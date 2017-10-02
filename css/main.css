@@ -1,13 +1,10 @@
-/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
 
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+/**blue #ccebff
+   border grey #d9d9d9
+   text grey #686868**/
 
 /* ==========================================================================
-   Base styles: opinionated defaults
+   Author's custom styles
    ========================================================================== */
 
 html {
@@ -16,6 +13,12 @@ html {
     line-height: 1.4;
 }
 
+body {
+    font-size: 20px;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
 * {
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
@@ -30,8 +33,8 @@ html {
     height: 70px;
     padding: 0px;
     margin: 0px;
-    border-top: 1px solid #F0F0F0;
-    border-bottom: 1px solid #F0F0F0;
+    border-top: 1px solid #e6ecff;
+    border-bottom: 1px solid #e6ecff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -64,7 +67,7 @@ html {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-left: 1px solid #F0F0F0;
+    border-left: 1px solid #d9d9d9;
 }
 
 @media all and (max-width: 400px) {
@@ -92,6 +95,89 @@ a:hover {
 }
 .icons a {
     padding: 4px;
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #e6ecff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.hero-left{
+    width: 400px;
+}
+
+.hero-right{
+    width: 500px;
+}
+
+.subtitles{
+    font-family: Roboto;
+    font-size: 26px;
+    color: #4d79ff;
+    font-weight:300;
+    text-align: LEFT;
+}
+
+.secondSubtitles{
+    font-family: Roboto;
+    font-size: 22px;
+    color: #686868;
+}
+
+.hero-right p{
+    font-size: 14px;
+    color: #686868;
+}
+
+/** IF I WANT TO CENTER ALIGN PICTURE, REMOVE THIS **/
+/**
+#picDiv img{
+    display: block;
+    margin: 0 auto;
+}
+**/
+
+@media all and (max-width: 981px) {
+    .hero-left {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hero-left .icons {
+        margin: 0 auto;
+    }
+}
+
+.download-resume {
+    /* Rectangle 3: */
+    display: inline-block;
+    margin-top: 20px;
+    background: #4d79ff ;
+    /* Download Resume: */
+    font-family: Roboto;
+    font-size: 15px;
+    /*padding: 15px 50px;*/
+    color: #ccebff;
+    padding: 18px 0px;
+    width: 296px;
+    text-align: center;
+    letter-spacing: 0;
+    border-radius: 2px;
 }
 
 /*
@@ -170,25 +256,6 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
