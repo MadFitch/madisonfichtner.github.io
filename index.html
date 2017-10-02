@@ -9,11 +9,15 @@
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Madison Fichtner</title>
+
     </head>
 
 
@@ -35,8 +39,30 @@
             </div>
         </nav>
         <section style="padding-top: 120px;" id="scroll-element" data-scroll-index="0" id="top">
+        <div class="hero">
+            <div class="hero-left">
+                <div id="picDiv">
+                    <img src="portrait.jpg" style="max-width: 50%; border-radius: 50%; "alt="">
+                </div>
+                <h2 class="subtitles">I'm Madison Fichtner <br /> Student at MSU - Bozeman</h2>
+                <a href="madison_resume.pdf" target="blank" class="download-resume" onclick="ga('send', {
+                  hitType: 'event',eventCategory: 'CTA',eventAction: 'download',});"><svg style="position: relative;
+                    top: 1.8px;
+                    padding-right: 1.5em;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16"><g ><polygon data-color="color-2" fill="#b6c9fe" points="9,8 9,1 7,1 7,8 4.6,8 8,12 11.4,8 "/>
+                                    <path fill="#b6c9fe" d="M15,16H1c-0.6,0-1-0.4-1-1V6c0-0.6,0.4-1,1-1h3v2H2v7h12V7h-2V5h3c0.6,0,1,0.4,1,1v9C16,15.6,15.6,16,15,16z
+                      "/></g></svg>Download Resume</a>
+            </div>
 
 
+            <div class="hero-right">
+                <h3 class="secondSubtitles">Currently a Junior Studying Computer Science</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at eros consequat, iaculis mi sit amet, placerat augue. Aenean vestibulum felis magna, sed rutrum ipsum fermentum quis. Nam vel venenatis lectus. Aliquam et leo et elit auctor pulvinar. Etiam dignissim massa nunc, at sodales velit finibus et. In hac habitasse platea dictumst. Fusce in nisi in lectus molestie ornare eu id leo. Nullam ut urna eget eros ultricies ullamcorper vel et odio. Donec condimentum pretium nunc. Cras aliquam at turpis ut euismod. </p>
+                <p>Nullam faucibus tempor dolor sit amet commodo. Cras vitae ultricies augue. Morbi non malesuada purus, in euismod sapien. Nullam porta et nulla vel consequat. Maecenas ut blandit purus, in sollicitudin sapien. Praesent laoreet dapibus tempor. Sed mollis suscipit velit quis finibus. Integer eget leo a purus feugiat rhoncus sit amet non massa. Suspendisse et scelerisque sem. Vivamus ligula nunc, venenatis sit amet porta a, ultrices vel lectus. </p>
+                <p>Fusce a tempor tortor. Nulla aliquam mi et metus volutpat porttitor. Suspendisse ac lorem non dui lobortis tristique. Suspendisse sodales vehicula diam, et pellentesque erat consequat at. Cras quis tincidunt velit. Curabitur pharetra quis lectus nec varius. Aenean auctor, velit quis porta convallis, dui urna semper nisl, et mattis ligula enim nec ex. Donec at augue vitae eros lobortis suscipit. Suspendisse ac mi at metus fermentum scelerisque. Etiam sit amet lacus eleifend ante hendrerit sodales. Proin eu nibh quis ex gravida pellentesque.</p>
+            </div>
+        </div>
+
+        </section>
 
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
