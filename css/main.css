@@ -126,12 +126,17 @@ section {
     width: 500px;
 }
 
+.hero-right p{
+    font-size: 14px;
+    color: #686868;
+}
+
 .subtitles{
     font-family: Roboto;
     font-size: 26px;
     color: #4d79ff;
     font-weight:300;
-    text-align: LEFT;
+    text-align: left;
 }
 
 .secondSubtitles{
@@ -140,11 +145,37 @@ section {
     color: #686868;
 }
 
-.hero-right p{
-    font-size: 14px;
-    color: #686868;
+.socialButtons{
+    max-height:16px;
+    max-width: 400px;
+    margin-bottom:21.58px;
 }
 
+.fa{
+    margin-right:2px;
+    padding: 5px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover{
+    opacity: .8;
+}
+.fa-linkedin{
+    /**margin-left: 95px; /**For center alignment**/
+    background: #007bb5;
+    color: white;
+}
+.fa-github{
+    background:black;
+    color:white;
+}
+.fa-google{
+    background:#dd4b39;
+    color:white;
+}
 /** IF I WANT TO CENTER ALIGN PICTURE, REMOVE THIS **/
 /**
 #picDiv img{
@@ -152,16 +183,6 @@ section {
     margin: 0 auto;
 }
 **/
-
-@media all and (max-width: 981px) {
-    .hero-left {
-        margin: 0 auto;
-        text-align: center;
-    }
-    .hero-left .icons {
-        margin: 0 auto;
-    }
-}
 
 .download-resume {
     /* Rectangle 3: */
@@ -178,6 +199,29 @@ section {
     text-align: center;
     letter-spacing: 0;
     border-radius: 2px;
+}
+
+.project1{
+    font-size: 14px;
+    color: #686868;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.p1-left{
+    width:400px;
+}
+
+.p2-left{
+    width:400px;
 }
 
 /*
