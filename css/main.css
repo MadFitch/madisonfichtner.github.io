@@ -135,6 +135,10 @@ p{
     margin-bottom: 10.857px;
 }
 
+.hero-right p{
+    padding-top: 10px;
+}
+
 .subtitles{
     font-family: Roboto;
     font-size: 26px;
