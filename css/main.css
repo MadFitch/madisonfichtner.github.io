@@ -27,6 +27,8 @@ body {
 }
 
 .main-navigation{
+    z-index:10;
+    position:fixed;
     z-index: 999;
     width: 100%;
     background: white;
@@ -79,8 +81,8 @@ body {
 
 a {
     text-decoration: none;
-    -webkit-transition: 0.1s ease-in;
-    transition: 0.1s ease-in;
+    -webkit-transition:.2s ease-in;
+    transition: .2s ease-in;
 }
 
 a:hover {
@@ -223,6 +225,38 @@ section {
 .p2-left{
     width:400px;
 }
+
+#mid{
+    height: 500px;
+}
+
+#bot{
+    height: 1000px;
+}
+
+.interest1{
+    font-size: 14px;
+    color: #686868;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.interest1-left{
+    width:400px;
+}
+
+.interest1.right{
+    width:400px;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
