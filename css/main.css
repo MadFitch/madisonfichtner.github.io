@@ -12,7 +12,6 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
-
 body {
     font-size: 20px;
     font-family: Roboto;
@@ -25,7 +24,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 .main-navigation{
     opacity:.9;
     z-index:10;
@@ -47,7 +45,6 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
-
 .sub-navigation{
     max-width: 445px;
     height: inherit;
@@ -55,7 +52,6 @@ body {
     display: -ms-flexbox;
     display: flex;
 }
-
 .main-navigation-link {
     color: #686868;
     padding: 15px;
@@ -71,6 +67,14 @@ body {
     justify-content: center;
     border-left: 1px solid #d9d9d9;
 }
+.logo:hover, .main-navigation-link:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+}
+
+.logo {
+    width: 68px;
+    display: block;
+}
 
 @media all and (max-width: 400px) {
     .main-navigation h5 {
@@ -84,18 +88,16 @@ a {
     -webkit-transition:.2s ease-in;
     transition: .2s ease-in;
 }
-
 a:hover {
     cursor: pointer;
     opacity: 0.8;
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
 }
-
-.icons a:first-child {
+.socialButtons a:first-child {
     padding: 4px 4px 4px 0px
 }
-.icons a {
+.socialButtons a {
     padding: 4px;
 }
 
@@ -119,11 +121,9 @@ section {
     flex-wrap: wrap;
     max-width: 1000px;
 }
-
 .hero-left{
     width: 400px;
 }
-
 .hero-right{
     width: 500px;
 }
@@ -146,7 +146,6 @@ p{
     font-weight:300;
     text-align: left;
 }
-
 .secondSubtitles{
     font-family: Roboto;
     font-size: 22px;
@@ -155,7 +154,6 @@ p{
     margin-bottom: 0px;
     padding-bottom: 10px;
 }
-
 .title {
     font-family: Roboto;
     font-weight: bold;
@@ -165,10 +163,20 @@ p{
     letter-spacing: 0;
     line-height: 0.4em;
 }
-
 .header {
     height: 50px;
     padding:0px;
+    max-width:1000px;
+    margin:0 auto;
+}
+.footer {
+    padding: 30px 30px 30px 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex !important;
+    justify-content: space-between;
+    border-bottom: 1px solid #F0F0F0;
+    height: 90px;
 }
 
 .socialButtons{
@@ -176,7 +184,6 @@ p{
     max-width: 400px;
     margin-bottom:21.58px;
 }
-
 .fa{
     margin-right:2px;
     padding: 5px;
@@ -241,48 +248,15 @@ p{
     flex-wrap: wrap;
     max-width: 1000px;
 }
-
 .p-left{
     width:400px;
     height:400px;
     padding-top: 70px;
 }
-
 .p-right{
     width:500px;
     height:400px;
     padding-top:70px;
-}
-
-
-#mid{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0 auto;
-    padding-left:0;
-    padding-right:0;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    max-width: 1000px;
-}
-
-#bot{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0 auto;
-    padding-left:0;
-    padding-right:0;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    max-width: 1000px;
 }
 
 .interest{
@@ -299,12 +273,10 @@ p{
     flex-wrap: wrap;
     max-width: 1000px;
 }
-
 .interest-left{
     width:400px;
     height:400px;
 }
-
 .interest-right{
     width:400px;
     height:400px;
