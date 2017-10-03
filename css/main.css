@@ -162,12 +162,25 @@ p{
     color: #686868;
     letter-spacing: 0;
     line-height: 0.4em;
+    max-length:1000px;
+}
+.skillsTitle{
+    font-family: Roboto;
+    font-size: 26px;
+    color: #4d79ff;
+    font-weight:300;
+    text-align: left;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin:0px;
+    padding-bottom:5px;
 }
 .header {
     height: 50px;
     padding:0px;
     max-width:1000px;
     margin:0 auto;
+    margin-bottom:30px;
 }
 .footer {
     padding: 30px 30px 30px 30px;
@@ -234,7 +247,7 @@ p{
     border-radius: 2px;
 }
 
-.project{
+.project-item{
     font-size: 14px;
     color: #686868;
     display: -webkit-box;
@@ -251,15 +264,16 @@ p{
 .p-left{
     width:400px;
     height:400px;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 .p-right{
-    width:500px;
+    width:400px;
     height:400px;
-    padding-top:70px;
+    padding-top:20px;
+    padding-left:50px;
 }
 
-.interest{
+.skill{
     font-size: 14px;
     color: #686868;
     display: -webkit-box;
@@ -273,15 +287,36 @@ p{
     flex-wrap: wrap;
     max-width: 1000px;
 }
-.interest-left{
-    width:400px;
-    height:400px;
+.skills-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width:1000px;
+    margin:0 auto;
 }
-.interest-right{
-    width:400px;
-    height:400px;
+.skills-item {
+    max-width:500px;
+    margin:0px;
+    margin-left: -40px;
 }
-
+.skill-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0px;
+    height: 35px;
+}
 
 /*
  * Remove text-shadow in selection highlight:
