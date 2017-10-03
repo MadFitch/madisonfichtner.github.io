@@ -147,6 +147,21 @@ section {
     color: #686868;
 }
 
+.title {
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 44px;
+    color: #686868;
+    letter-spacing: 0;
+    line-height: 0.4em;
+}
+
+.header {
+    height: 50px;
+    padding:0px;
+}
+
 .socialButtons{
     max-height:16px;
     max-width: 400px;
@@ -228,10 +243,31 @@ section {
 
 #mid{
     height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    padding-left:0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 1000px;
 }
 
 #bot{
-    height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    padding-left:0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 1000px;
 }
 
 .interest1{
