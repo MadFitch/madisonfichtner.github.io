@@ -318,6 +318,10 @@ p{
     height: 35px;
 }
 
+#bot .header a{
+    color: #4d79ff;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
