@@ -131,7 +131,7 @@ section {
 p{
     font-size: 14px;
     color: #686868;
-    margin-top:0px;
+    margin-top:0;
     margin-bottom: 10.857px;
 }
 
@@ -150,34 +150,33 @@ p{
     font-family: Roboto;
     font-size: 22px;
     color: #686868;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-bottom: 10px;
 }
 .title {
     font-family: Roboto;
     font-weight: bold;
-    margin: 0px;
+    margin: 0;
     font-size: 44px;
     color: #686868;
     letter-spacing: 0;
     line-height: 0.4em;
-    max-length:1000px;
+    max-width:1000px;
 }
 .skillsTitle{
     font-family: Roboto;
     font-size: 26px;
     color: #4d79ff;
-    font-weight:300;
     text-align: left;
     font-weight:bold;
     letter-spacing:1px;
-    margin:0px;
+    margin:0;
     padding-bottom:5px;
 }
 .header {
     height: 50px;
-    padding:0px;
+    padding:0;
     max-width:1000px;
     margin:0 auto;
     margin-bottom:30px;
@@ -241,7 +240,7 @@ p{
     font-size: 15px;
     /*padding: 15px 50px;*/
     color: #ccebff;
-    padding: 18px 0px;
+    padding: 18px 0;
     width: 296px;
     text-align: center;
     letter-spacing: 0;
@@ -302,7 +301,7 @@ p{
 }
 .skills-item {
     max-width:500px;
-    margin:0px;
+    margin:0;
     margin-left: -40px;
 }
 .skill-header {
@@ -315,7 +314,7 @@ p{
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    margin: 0px;
+    margin: 0;
     height: 35px;
 }
 
