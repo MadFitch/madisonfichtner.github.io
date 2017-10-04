@@ -65,7 +65,7 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-left: 1px solid #d9d9d9;
+    border-left: 1px solid #e6ecff;
 }
 .logo:hover, .main-navigation-link:hover {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
@@ -223,12 +223,13 @@ p{
     color:white;
 }
 /** IF I WANT TO CENTER ALIGN PICTURE, REMOVE THIS **/
-/**
-#picDiv img{
+
+.picDiv img{
     display: block;
     margin: 0 auto;
+    padding-top: 71.56px;
 }
-**/
+
 
 .download-resume {
     /* Rectangle 3: */
@@ -263,14 +264,13 @@ p{
 }
 .p-left{
     width:400px;
-    height:400px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .p-right{
     width:400px;
-    height:400px;
-    padding-top:20px;
+    padding-top:30px;
     padding-left:50px;
+    margin: 0 auto;
 }
 
 .skill{
@@ -298,6 +298,7 @@ p{
     justify-content: space-between;
     max-width:1000px;
     margin:0 auto;
+    padding-top:10px;
 }
 .skills-item {
     max-width:500px;
