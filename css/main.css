@@ -321,6 +321,9 @@ p{
 #bot .header a{
     color: #4d79ff;
 }
+#bot .header a:visited{
+    color: #4d79ff;
+}
 
 /*
  * Remove text-shadow in selection highlight:
