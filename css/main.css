@@ -109,6 +109,7 @@ section {
     padding-right: 30px;
 }
 
+/**
 #top {
     padding-top: 240px;
     height: 100vh;
@@ -122,7 +123,7 @@ section {
 #bot {
     height: 90vh;
 }
-
+**/
 .hero {
     display: -webkit-box;
     display: -ms-flexbox;
