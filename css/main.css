@@ -102,11 +102,25 @@ a:hover {
 }
 
 section {
-    padding-top: 70px;
+    padding-top: 140px;
     padding-bottom: 70px;
     border-bottom: 1px solid #e6ecff;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+#top {
+    padding-top: 240px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#mid {
+    height: 100vh;
+}
+
+#bot {
+    height: 90vh;
 }
 
 .hero {
