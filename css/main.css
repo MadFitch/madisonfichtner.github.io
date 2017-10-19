@@ -5,7 +5,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+@import "compass/css3";
 html {
     color: #222;
     font-size: 1em;
@@ -16,6 +16,8 @@ body {
     font-family: Roboto;
     margin: 0;
     padding: 0;
+    background:linear-gradient(top, rgba(0,160,227,0.5) 0%,rgba(176,203,31,0.5) 50%,rgba(239,127,26,0.5) 100%);
+
 }
 * {
     box-sizing: border-box;
@@ -24,7 +26,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 .main-navigation{
-    opacity:.9;
+    opacity:.55;
     z-index:10;
     position:fixed;
     width: 100%;
@@ -112,9 +114,16 @@ section {
     padding-top: 240px;
     height: 100vh;
     margin: 0 auto;
+    padding-bottom:140px;
 }
 
 #mid {
+    /**
+    background-image: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-11.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+    **/
     height: 100vh;
 }
 
@@ -135,7 +144,7 @@ section {
     max-width: 1000px;
 }
 .hero-left{
-    width: 400px;
+    width: 450px;
 }
 .hero-right{
     width: 500px;
@@ -592,3 +601,21 @@ textarea {
         page-break-after: avoid;
     }
 }
+/**
+.container {
+    width: 100%;
+    min-width: 1200px;
+    height: 100vh;
+    background-size: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container .overlay {
+    background: linear-gradient(to bottom, #F0F2F0 0%, #ACB6E5 50%, #F3904F 100%);
+}
+.container .slide {
+    width: 100%;
+    position: relative;
+}
+
+**/
