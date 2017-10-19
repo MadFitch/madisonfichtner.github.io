@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
@@ -231,3 +232,237 @@
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>
 </html>
+=======
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="MF" href="MF.jpg">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Madison Fichtner</title>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                // Add smooth scrolling to all links
+                $("a").on('click', function(event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 800, function(){
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                });
+            });
+        </script>
+    </head>
+
+
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <nav class="main-navigation">
+            <a href="index.html"><h1 style="display: none;">Madison Fichtner</h1><img class="logo" src="MF.jpg" alt="Madison Fichtner"></a>
+            <!--<a href="index.html" class="main-navigation-link" id="madisonfichtner"> Madison Fichtner</a>-->
+            <div class="sub-navigation">
+                <a href="#top" class="main-navigation-link" id="about" data-scroll-goto="0">About</a>
+                <a href="#mid" class="main-navigation-link" id ="projects" data-scroll-goto="1">Projects</a>
+                <a href="#bot" class="main-navigation-link" id ="interests" data-scroll-goto="2">Skills</a>
+            </div>
+        </nav>
+        <section data-scroll-index="0" id="top"> <!-- style="padding-top: 210px;" -->
+        <div class="hero">
+            <div class="hero-left">
+                <div id="portrait">
+                    <img src="portrait.jpg" style="max-width: 50%; border-radius: 50%; "alt="">
+                </div>
+                <h2 class="subtitles">I'm Madison Fichtner <br /> Student at MSU - Bozeman</h2>
+                <div class="socialButtons">
+                    <a href="https://www.linkedin.com/in/madison-fichtner-340193130/" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/MadisonFichtner" class="fa fa-github"></a>
+                    <a href="mailto:madisontfichtner@gmail.com" class="fa fa-google"></a>
+                </div>
+                <a href="madison_resume.pdf" target="blank" class="download-resume" onclick="ga('send', {
+                  hitType: 'event',eventCategory: 'CTA',eventAction: 'download',});"><svg style="position: relative;
+                    top: -2.4px;
+                    padding-right: 1.5em;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16"><g ><polygon data-color="color-2" fill="#b6c9fe" points="9,8 9,1 7,1 7,8 4.6,8 8,12 11.4,8 "/>
+                                    <path fill="#b6c9fe" d="M15,16H1c-0.6,0-1-0.4-1-1V6c0-0.6,0.4-1,1-1h3v2H2v7h12V7h-2V5h3c0.6,0,1,0.4,1,1v9C16,15.6,15.6,16,15,16z
+                      "/></g></svg>Download Resume</a>
+            </div>
+
+
+            <div class="hero-right">
+                <h3 class="secondSubtitles">A Junior Studying Computer Science</h3>
+                <p>I am a creator. I want to use code to create beautiful, people-centric interfaces.
+                    The challenges of designing and implementing an experience that is grounded in the
+                    human experience is what drives me to continue learning and growing. The opportunity
+                    to gain real world experience on a real world product would grow my skills as an
+                    engineer and allow me to share my perspective with millions of people through my
+                    software.</p>
+                <p>My dream is to work on a team that develops products used by billions of people.
+                    By focusing on the beauty and elegance of both software and design I hope to
+                    create new experiences for people around the world.</p>
+                <p>On the side, I designed and developed my own personal website and portfolio at
+                    madisonfichtner.com education using HTML and CSS. I’m currently part of a team
+                    that’s using machine learning techniques to develop classification and function
+                    approximation neural networks. And for fun I created my own quadcopter drone and a
+                    homebrew Google Home using a Raspberry Pi.</p>
+            </div>
+        </div>
+        </section>
+
+        <section data-scroll-index="1" id="mid">
+            <div class="projects">
+                <div class="header">
+                    <h1 class="title">Projects</h1>
+                    <h2 class="subtitles">All School and Personal Projects Available on Github</h2>
+                </div>
+                    <div class="project-item">
+                        <div class="p-left">
+                            <h3 class="secondSubtitles">Personal Portfolio / Website</h3>
+                            <p>The goal of developing my own website was to put who I am on display, and demonstrate how I think. Arguably the most important aspect
+                            of software development is user experience, and creating a thoughtful, and beautiful user interface.</p>
+                            <p>I want you to be able look through my website and see my thought process in a clean, meaningful format. I wanted simple, and effective.</p>
+                            <p>As a student, I wanted to create something that highlights the most important aspects of my computing career up to this point as well as my future aspirations.
+                            As of this point, the most important information about me would be what projects I've personally worked on, and the education that I've obtained as well as how that education
+                            will be applicable.</p>
+                        </div>
+                        <div class="p-right">
+                            <div class="picDiv">
+                                <img src="webdesign.jpg" style="max-width: 100%; "alt="Project 1 Picture Placeholder">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="p-left">
+                            <h3 class="secondSubtitles">Raspberry Pi Drone and Google Home</h3>
+                            <p>Raspberry Pi is an incredible platform for developers, and creators alike to explore technology. I decided to try out a few projects using first, open source
+                            software to power a quadcopter, and second, Googles API for their Google Home.</p>
+                            <p>The quadcopter used the combination of Python programs ran with a Raspberry Pi, and servo motors controlled with an Arduino microcontroller. The drone
+                            was controlled through bluetooth with an android application.</p>
+                            <p>Google recently came out with an openly downloable API for their Google Homes. The only other necessary component for creating your own Google Pi is
+                            making the Pi receive your voice as an input through a microphone, and to connect to Googles servers.</p>
+
+                        </div>
+                        <div class="p-right">
+                            <div class="picDiv">
+                                <img src="google.jpg" style="max-width: 100%; "alt="Project 2 Picture Placeholder">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section data-scroll-index="2" id="bot">
+            <div class="skills">
+                <div class="header">
+                    <h1 class="title">Relevant Skills and Coursework</h1>
+                    <h2 class="subtitles">More Detailed Coursework can be Found on <a href="madison_resume.pdf">Resume</a></h2>
+                </div>
+                <div class="skills-wrapper">
+                    <div class="skills-item">
+                        <figure class="skillHeader">
+                            <h3 class="skillsTitle">Programming <i class="fa fa-terminal" aria-hidden="true"></i></h3>
+                            <p>I am proficient in Java, C, HTML, CSS, Git, and am currently learning Dart,
+                                and React. I've mostly programmed using Java in MSU's courses.</p>
+                        </figure>
+                    </div>
+                    <div class="skills-item">
+                        <figure class="skillHeader">
+                            <h3 class="skillsTitle">Data Structures <i class="fa fa-linode" aria-hidden="true"></i></h3>
+                            <p>It's important to try to implement the most efficient solution to a problem.
+                                I've taken Data Structures and Algorithms I and II, as well as Software Engineering offered by MSU.</p>
+                        </figure>
+                    </div>
+                    <div class="skills-item">
+                        <figure class="skillHeader">
+                            <h3 class="skillsTitle">Web Design <i class="fa fa-paint-brush" aria-hidden="true"></i></h3>
+                            <p>I enjoy user experience and front end design. I designed and developed this
+                                website with the hope of displaying exactly who I am. I have completed MSU's
+                                Web Design course, and take pride in creating beautiful UI experience.</p>
+                        </figure>
+                    </div>
+                    <div class="skills-item">
+                        <figure class="skillHeader">
+                            <h3 class="skillsTitle">Machine Learning <i class="fa fa-book" aria-hidden="true"></i></h3>
+                            <p>Machine learning is an extremely interesting topic that I am exploring. I am currently taking
+                                the machine learning course offered at MSU and plan on taking Artificial
+                                Intelligence.</p>
+                        </figure>
+                    </div>
+                    <div class="skills-item">
+                        <figure class="skillHeader">
+                            <h3 class="skillsTitle">Mathematics and Science <i class="fa fa-space-shuttle" aria-hidden="true"></i></h3>
+                            <p>It's crucial to be able to solve problems, complex or simple.
+                                I've completed Calculus I and II, Statistics I, Discrete Structures,
+                                Linear Algebra I, Physics I and Biotechnology </p>
+                        </figure>
+                    </div>
+                    <div class="skills-item">
+                        <figure class="skillHeader">
+                            <h3 class="skillsTitle">Computer Architecture <i class="fa fa-microchip" aria-hidden="true"></i></h3>
+                            <p>I'm currently minoring in Computer Engineering, having taken many logic classes,
+                            as well as circuit design, programming, and microprocessor computing.</p>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer">
+            <div class="socialButtons">
+                <a href="https://www.linkedin.com/in/madison-fichtner-340193130/" class="fa fa-linkedin"></a>
+                <a href="https://github.com/MadisonFichtner" class="fa fa-github"></a>
+                <a href="mailto:madisontfichtner@gmail.com" class="fa fa-google"></a>
+            </div>
+            <a href="#top" class="main-navigation-link" id="return" data-scroll-goto="0">Hop to the Top</a>
+        </div>
+
+
+
+
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
+>>>>>>> 1bbb62dd7906671d8345f68f5af8d19a869e4aad
