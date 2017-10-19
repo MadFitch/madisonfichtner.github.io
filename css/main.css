@@ -16,7 +16,6 @@ body {
     font-family: Roboto;
     margin: 0;
     padding: 0;
-    background:linear-gradient(top, rgba(0,160,227,0.5) 0%,rgba(176,203,31,0.5) 50%,rgba(239,127,26,0.5) 100%);
 
 }
 * {
@@ -118,13 +117,17 @@ section {
 }
 
 #mid {
-    /**
-    background-image: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-11.jpg);
+    /** ADDS IMAGE TO CENTER SECTION
+    background-image: url(../img/2245edited1.jpg);
     background-attachment: fixed;
     background-position:center;
-    background-size:cover;
-    **/
+    background-size:cover;**/
     height: 100vh;
+}
+
+#mid {
+    color: white;
+    height: 110vh;
 }
 
 #bot {
@@ -144,7 +147,7 @@ section {
     max-width: 1000px;
 }
 .hero-left{
-    width: 450px;
+    width: 425px;
 }
 .hero-right{
     width: 500px;
@@ -287,11 +290,26 @@ p{
     width:400px;
     padding-top: 30px;
 }
+
+/*change color if using image*/
+.p-left p{
+    color: #686868;
+}
+
+.p-left .secondSubtitles{
+    color: #686868;
+}
+
 .p-right{
     width:400px;
     padding-top:30px;
     padding-left:50px;
     margin: 0 auto;
+}
+
+/*change color if using image*/
+.projects .title{
+    color: #686868;
 }
 
 .skill{
@@ -601,6 +619,7 @@ textarea {
         page-break-after: avoid;
     }
 }
+
 /**
 .container {
     width: 100%;
@@ -617,5 +636,5 @@ textarea {
     width: 100%;
     position: relative;
 }
-
 **/
+
