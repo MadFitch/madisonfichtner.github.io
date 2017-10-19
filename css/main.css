@@ -16,7 +16,6 @@ body {
     font-family: Roboto;
     margin: 0;
     padding: 0;
-
 }
 * {
     box-sizing: border-box;
@@ -116,25 +115,14 @@ section {
 }
 
 #mid {
-    height: 100vh;
-    padding-bottom:140px;
-}
-
-#mid {
-    /** ADDS IMAGE TO CENTER SECTION
+    /*
     background-image: url(../img/2245edited1.jpg);
     background-attachment: fixed;
     background-position:center;
-    background-size:cover;**/
+    background-size:cover;*/
     height: 100vh;
 }
 
-#mid {
-    color: white;
-    height: 110vh;
-}
-
->>>>>>> ecbe58f5491b08ec6b2c9c75ba46afc00682e478
 #bot {
     height: 90vh;
 }
@@ -635,7 +623,7 @@ textarea {
     background-attachment: fixed;
 }
 .container .overlay {
-    background: linear-gradient(to bottom, #F0F2F0 0%, #ACB6E5 50%, #F3904F 100%);
+    background: linear-gradient(to bottom, #B3DFFF 0%, #B3FFD3 50%, #B3FFF9 100%);
 }
 .container .slide {
     width: 100%;
