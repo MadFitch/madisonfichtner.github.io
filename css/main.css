@@ -13,7 +13,8 @@ html {
 }
 body {
     font-size: 20px;
-    font-family: Roboto;
+    font-family: "Gill Sans MT";
+    font-weight: lighter;
     margin: 0;
     padding: 0;
     overflow:hidden;
@@ -102,7 +103,7 @@ a:hover {
 }
 
 section {
-    padding-top: 140px;
+    padding-top: 120px;
     padding-bottom: 70px;
     border-bottom: 1px solid #e6ecff;
     padding-left: 30px;
@@ -141,10 +142,10 @@ section {
     max-width: 1000px;
 }
 .hero-left{
-    width: 425px;
+    width: 450px;
 }
 .hero-right{
-    width: 500px;
+    width: 475px;
 }
 
 p{
@@ -152,43 +153,48 @@ p{
     color: #686868;
     margin-top:0;
     margin-bottom: 10.857px;
+    letter-spacing: .5px;
+    font-weight: 100;
 }
 
 .hero-right p{
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .subtitles{
-    font-family: Roboto;
-    font-size: 26px;
+    font-family: "Gill Sans MT";
+    font-size: 28px;
     color: #4d79ff;
-    font-weight:300;
+    font-weight:bolder;
+    letter-spacing: 1px;
     text-align: left;
 }
 .secondSubtitles{
-    font-family: Roboto;
-    font-size: 22px;
+    font-family: "Gill Sans MT";
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 24px;
     color: #686868;
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 10px;
 }
 .title {
-    font-family: Roboto;
-    font-weight: bold;
+    font-family: "Gill Sans MT";
+    font-weight: bolder;
     margin: 0;
     font-size: 44px;
     color: #686868;
-    letter-spacing: 0;
+    letter-spacing: 1px;
     line-height: 0.4em;
     max-width:1000px;
 }
 .skillsTitle{
-    font-family: Roboto;
-    font-size: 26px;
+    font-family: "Gill Sans MT";
+    font-weight: lighter;
+    font-size: 22px;
     color: #4d79ff;
     text-align: left;
-    font-weight:bold;
     letter-spacing:1px;
     margin:0;
     padding-bottom:5px;
@@ -255,7 +261,7 @@ p{
     margin-top: 20px;
     background: #4d79ff ;
     /* Download Resume: */
-    font-family: Roboto;
+    font-family: "Gill Sans MT";
     font-size: 15px;
     /*padding: 15px 50px;*/
     color: #ccebff;
@@ -281,7 +287,7 @@ p{
     max-width: 1000px;
 }
 .p-left{
-    width:400px;
+    width:450px;
     padding-top: 30px;
 }
 
@@ -296,7 +302,7 @@ p{
 
 .p-right{
     width:400px;
-    padding-top:30px;
+    padding-top:20px;
     padding-left:50px;
     margin: 0 auto;
 }
@@ -339,6 +345,7 @@ p{
     margin-left: -40px;
 }
 .skill-header {
+    font-weight: bolder;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -417,6 +424,7 @@ p{
 .upArrow a{
     margin: 0 auto;
     display: block;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1);
 }
 
 
