@@ -54,8 +54,10 @@ body {
     display: flex;
 }
 .main-navigation-link {
-    color: #686868;
-    padding: 15px;
+    font-size: 20px;
+    color: #4d79ff;
+    letter-spacing: 1px;
+    padding-right: 15px;
     display: -webkit-box;
     text-align: center !important;
     display: -ms-flexbox;
@@ -66,10 +68,14 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-left: 1px solid #e6ecff;
 }
-.logo:hover, .main-navigation-link:hover {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+
+.main-navigation-link.hasBorder{
+    border-right: 1px solid #4d79ff;
+}
+
+.main-navigation-link.isRight{
+    padding-left: 15px;
 }
 
 .logo {
@@ -102,6 +108,27 @@ a:hover {
     padding: 4px;
 }
 
+.helloThere {
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.5em;
+}
+
+.helloThere .subtitles{
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+
+.bar{
+    margin-top:60px;
+    margin-bottom:50px;
+    border-top: 1px;
+    width: 360px;
+    border-top:1px solid #4d79ff;
+}
+
 section {
     padding-top: 120px;
     padding-bottom: 70px;
@@ -109,6 +136,11 @@ section {
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
+}
+
+#landingPage {
+    height: 100vh;
+    padding-top: 240px;
 }
 
 #top {
@@ -389,6 +421,7 @@ p{
 .downArrow img{
     margin: 0 auto;
     display: block;
+    opacity: .5;
 }
 
 .downArrow a{
@@ -419,12 +452,12 @@ p{
 .upArrow img{
     margin: 0 auto;
     display: block;
+    opacity: .5;
 }
 
 .upArrow a{
     margin: 0 auto;
     display: block;
-    transition-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1);
 }
 
 

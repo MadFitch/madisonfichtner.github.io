@@ -45,13 +45,42 @@
             </div>
         </nav>
             -->
-        <section data-scroll-index="0" id="top"> <!-- style="padding-top: 210px;" -->
+        <section data-scroll-index="0" id="landingPage" >
+            <div class = "helloThere">
+                <h2 class="subtitles">Hello there!<br></h2>
+                <h2 class="subtitles">My name is <span style="font-weight:bold;">Madison</span></h2>
+                <h2 class="subtitles">I'm an Engineer with <span style="font-style:italic">Empathy</span></h2>
+                <div class="bar"></div>
+                <div class="sub-navigation">
+                    <a href="#top" class="main-navigation-link hasBorder" id="about" data-scroll-goto="1">About (Me)</a>
+                    <a href="#mid" class="main-navigation-link hasBorder isRight" id ="projects" data-scroll-goto="2">Projects</a>
+                    <a href="#bot" class="main-navigation-link isRight" id ="interests" data-scroll-goto="3">Skills</a>
+                </div>
+            </div>
+
+
+            <div class = "downArrow">
+                <!-- Collapse Arrow icon by Icons8 -->
+                <a href="#top" data-scroll-goto="1">
+                    <img class="icon icons8-Expand-Arrow" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABPklEQVRoQ+3X4Q2CQAwF4McGbqJuIJPrBuomjmCacEpOkGuvDy6k/EExPfj6jsR22MnR7cSBgLSWZCQSiZA6EFuL1FjzspGIuXWkwkiE1FjzsrtO5D60pQfwMreIU3gAcB2WPo9vMZXIA8ARgJxbwiTECcATgJw/xxRECm6NYXLEJd8tc+9IS5hFhMTy72VvAVOEWILI71tiihElkK0wKkQpZG2MGqGBrIUxIbQQNsaMsEBYmCqEFeKNqUbUQLwwLohaSC3GDeEBsWJcEV4QLcYd4QkpxVAQ3pAlDA3BgMxh5LpMdmko+pknviOS7RNrZs//NcvT0RCsRFJLxxi5JuOpexLpZqxEcox8pyHYidg2u7GKnYjxsfRlAdH3jFsRiXD7q189EtH3jFsRiXD7q189EtH3jFsRiXD7q1/9DSjkdjM74ulVAAAAAElFTkSuQmCC">
+                </a>
+            </div>
+        </section>
+
+
+        <section data-scroll-index="1" id="top"> <!-- style="padding-top: 210px;" -->
+        <div class = "upArrow">
+            <a href="#landingPage" data-scroll-goto="0">
+                <!-- Collapse Arrow icon by Icons8 -->
+                <img class="icon icons8-Collapse-Arrow" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABMElEQVRoQ+3Y0Q3CMAwE0OsGbAJsAJPDBsAmjICMEqmqQhs7viZC7h9qE3h3LZI74U+O6U8cCMhoTUYj0Qgpgbi1SMGat41GzNGRFkYjpGDN20YjldEdANzStVcA78p16suYjWTEKf2qJwAahgWZI14JcgRAwzAgS8QlQe4AaBhvSAmRnws5R8N4QtYQ+eGlYbwgNQgqxgOiQdAwrRALgoJpgbQg3DFWiAfCFWOBeCLcMFoIA+GC0UCYiGZMLWQPRBOmBrInwozZgvRAmDBrkJ4INeYXZASEClOCjISoxpQgDwAynspkJ0MRbc5WDubLEeA8X1+CyDgqx0iIZTPyOb8L+J7b+tdShtbv8oD0y778zdFINEJKIG4tUrDmbaMRc3SkhdEIKVjzttGIOTrSwg9X6XYzWYJrZgAAAABJRU5ErkJggg==">
+            </a>
+        </div>
         <div class="hero">
             <div class="hero-left">
                 <div id="portrait">
                     <img src="img/portrait.jpg" style="max-width: 50%; border-radius: 50%; "alt="">
                 </div>
-                <h2 class="subtitles">I'm Madison Fichtner <br /> Student at Montana State University</h2>
+                <h2 class="subtitles">Madison Fichtner <br /> Student at Montana State University</h2>
                 <div class="socialButtons">
                     <a href="https://www.linkedin.com/in/madison-fichtner-340193130/" class="fa fa-linkedin"></a>
                     <a href="https://github.com/MadisonFichtner" class="fa fa-github"></a>
@@ -84,15 +113,15 @@
             </div>
         </div>
             <div class = "downArrow">
-                <a href="#mid" id ="projects" data-scroll-goto="1">
+                <a href="#mid" data-scroll-goto="2">
                 <img class="icon icons8-Expand-Arrow" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABPklEQVRoQ+3X4Q2CQAwF4McGbqJuIJPrBuomjmCacEpOkGuvDy6k/EExPfj6jsR22MnR7cSBgLSWZCQSiZA6EFuL1FjzspGIuXWkwkiE1FjzsrtO5D60pQfwMreIU3gAcB2WPo9vMZXIA8ARgJxbwiTECcATgJw/xxRECm6NYXLEJd8tc+9IS5hFhMTy72VvAVOEWILI71tiihElkK0wKkQpZG2MGqGBrIUxIbQQNsaMsEBYmCqEFeKNqUbUQLwwLohaSC3GDeEBsWJcEV4QLcYd4QkpxVAQ3pAlDA3BgMxh5LpMdmko+pknviOS7RNrZs//NcvT0RCsRFJLxxi5JuOpexLpZqxEcox8pyHYidg2u7GKnYjxsfRlAdH3jFsRiXD7q189EtH3jFsRiXD7q189EtH3jFsRiXD7q1/9DSjkdjM74ulVAAAAAElFTkSuQmCC">
                 </a>
             </div>
         </section>
 
-        <section data-scroll-index="1" id="mid">
+        <section data-scroll-index="2" id="mid">
             <div class = "upArrow">
-                <a href="#top" id ="about" data-scroll-goto="0">
+                <a href="#top" data-scroll-goto="1">
                     <!-- Collapse Arrow icon by Icons8 -->
                     <img class="icon icons8-Collapse-Arrow" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABMElEQVRoQ+3Y0Q3CMAwE0OsGbAJsAJPDBsAmjICMEqmqQhs7viZC7h9qE3h3LZI74U+O6U8cCMhoTUYj0Qgpgbi1SMGat41GzNGRFkYjpGDN20YjldEdANzStVcA78p16suYjWTEKf2qJwAahgWZI14JcgRAwzAgS8QlQe4AaBhvSAmRnws5R8N4QtYQ+eGlYbwgNQgqxgOiQdAwrRALgoJpgbQg3DFWiAfCFWOBeCLcMFoIA+GC0UCYiGZMLWQPRBOmBrInwozZgvRAmDBrkJ4INeYXZASEClOCjISoxpQgDwAynspkJ0MRbc5WDubLEeA8X1+CyDgqx0iIZTPyOb8L+J7b+tdShtbv8oD0y778zdFINEJKIG4tUrDmbaMRc3SkhdEIKVjzttGIOTrSwg9X6XYzWYJrZgAAAABJRU5ErkJggg==">
                 </a>
@@ -107,7 +136,6 @@
                             <h3 class="secondSubtitles">Personal Portfolio / Website</h3>
                             <p>The goal of developing my own website was to put who I am on display, and demonstrate how I think. Arguably the most important aspect
                             of software development is user experience, and creating a thoughtful, and beautiful user interface.</p>
-                            <p>I want you to be able look through my website and see my thought process in a clean, meaningful format. I wanted simple, and effective.</p>
                             <p>As a student, I wanted to create something that highlights the most important aspects of my computing career up to this point as well as my future aspirations.
                             As of this point, the most important information about me would be what projects I've personally worked on, and the education that I've obtained as well as how that education
                             will be applicable.</p>
@@ -123,10 +151,9 @@
                             <h3 class="secondSubtitles">Raspberry Pi Drone and Google Home</h3>
                             <p>Raspberry Pi is an incredible platform for developers, and creators alike to explore technology. I decided to try out a few projects using first, open source
                             software to power a quadcopter, and second, Googles API for their Google Home.</p>
-                            <p>The quadcopter used the combination of Python programs ran with a Raspberry Pi, and servo motors controlled with an Arduino microcontroller. The drone
-                            was controlled through bluetooth with an android application.</p>
-                            <p>Google recently came out with an openly downloable API for their Google Homes. The only other necessary component for creating your own Google Pi is
-                            making the Pi receive your voice as an input through a microphone, and to connect to Googles servers.</p>
+                            <p>The quadcopter used the combination of Python programs and servo motors controlled with an Arduino microcontroller. The drone
+                            was controlled through a wireless connection with the use of an android application.</p>
+                            <p>Google recently came out with an openly downloable API for their Google Homes. The only other necessary component for creating your own Google Pi is connecting the Pi to Google's servers</p>
 
                         </div>
                         <div class="p-right">
@@ -137,15 +164,15 @@
                     </div>
             </div>
             <div class = "downArrow">
-                <a href="#bot" id ="skills" data-scroll-goto="2">
+                <a href="#bot" data-scroll-goto="3">
                     <img class="icon icons8-Expand-Arrow" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABPklEQVRoQ+3X4Q2CQAwF4McGbqJuIJPrBuomjmCacEpOkGuvDy6k/EExPfj6jsR22MnR7cSBgLSWZCQSiZA6EFuL1FjzspGIuXWkwkiE1FjzsrtO5D60pQfwMreIU3gAcB2WPo9vMZXIA8ARgJxbwiTECcATgJw/xxRECm6NYXLEJd8tc+9IS5hFhMTy72VvAVOEWILI71tiihElkK0wKkQpZG2MGqGBrIUxIbQQNsaMsEBYmCqEFeKNqUbUQLwwLohaSC3GDeEBsWJcEV4QLcYd4QkpxVAQ3pAlDA3BgMxh5LpMdmko+pknviOS7RNrZs//NcvT0RCsRFJLxxi5JuOpexLpZqxEcox8pyHYidg2u7GKnYjxsfRlAdH3jFsRiXD7q189EtH3jFsRiXD7q189EtH3jFsRiXD7q1/9DSjkdjM74ulVAAAAAElFTkSuQmCC">
                 </a>
             </div>
         </section>
 
-        <section data-scroll-index="2" id="bot">
+        <section data-scroll-index="3" id="bot">
             <div class = "upArrow">
-                <a href="#mid" data-scroll-goto="0">
+                <a href="#mid" data-scroll-goto="2">
                     <!-- Collapse Arrow icon by Icons8 -->
                     <img class="icon icons8-Collapse-Arrow" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABMElEQVRoQ+3Y0Q3CMAwE0OsGbAJsAJPDBsAmjICMEqmqQhs7viZC7h9qE3h3LZI74U+O6U8cCMhoTUYj0Qgpgbi1SMGat41GzNGRFkYjpGDN20YjldEdANzStVcA78p16suYjWTEKf2qJwAahgWZI14JcgRAwzAgS8QlQe4AaBhvSAmRnws5R8N4QtYQ+eGlYbwgNQgqxgOiQdAwrRALgoJpgbQg3DFWiAfCFWOBeCLcMFoIA+GC0UCYiGZMLWQPRBOmBrInwozZgvRAmDBrkJ4INeYXZASEClOCjISoxpQgDwAynspkJ0MRbc5WDubLEeA8X1+CyDgqx0iIZTPyOb8L+J7b+tdShtbv8oD0y778zdFINEJKIG4tUrDmbaMRc3SkhdEIKVjzttGIOTrSwg9X6XYzWYJrZgAAAABJRU5ErkJggg==">
                 </a>
@@ -211,7 +238,7 @@
                 <a href="https://github.com/MadisonFichtner" class="fa fa-github"></a>
                 <a href="mailto:madisontfichtner@gmail.com" class="fa fa-google"></a>
             </div>
-            <a href="#top" class="main-navigation-link" id="return" data-scroll-goto="0">Hop to the Top</a>
+            <a href="#landingPage" class="main-navigation-link" id="return" data-scroll-goto="0">Hop to the Top</a>
         </div>
 
 
