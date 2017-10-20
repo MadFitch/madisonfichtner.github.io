@@ -107,6 +107,7 @@ section {
     border-bottom: 1px solid #e6ecff;
     padding-left: 30px;
     padding-right: 30px;
+    position: relative;
 }
 
 #top {
@@ -357,6 +358,67 @@ p{
 #bot .header a:visited{
     color: #4d79ff;
 }
+
+.downArrow{
+    width: 1000px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    bottom: 20px;
+    right: 25%;
+    left: 50%;
+    margin-left: -500px;
+    text-align: center;
+    position: absolute;
+}
+
+.downArrow img{
+    margin: 0 auto;
+    display: block;
+}
+
+.downArrow a{
+    margin: 0 auto;
+    display: block;
+}
+
+.upArrow{
+    width: 1000px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    top: 20px;
+    right: 25%;
+    left: 50%;
+    margin-left: -500px;
+    text-align: center;
+    position: absolute;
+}
+
+.upArrow img{
+    margin: 0 auto;
+    display: block;
+}
+
+.upArrow a{
+    margin: 0 auto;
+    display: block;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
