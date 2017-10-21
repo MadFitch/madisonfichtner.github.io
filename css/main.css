@@ -59,7 +59,7 @@ body {
     font-size: 20px;
     color: #4d79ff;
     letter-spacing: 1px;
-    padding-right: 15px;
+    margin-right: 15px;
     display: -webkit-box;
     text-align: center !important;
     display: -ms-flexbox;
@@ -72,12 +72,13 @@ body {
     justify-content: center;
 }
 
+/*
 .main-navigation-link.hasBorder{
     border-right: 1px solid #4d79ff;
 }
-
+*/
 .main-navigation-link.isRight{
-    padding-left: 15px;
+    margin-left: 15px;
 }
 
 .logo {
@@ -92,17 +93,52 @@ body {
     }
 }
 
-a {
+.link {
+
     text-decoration: none;
+
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.link:before, .link:after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1.5px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #4d79ff;
+}
+.link:before{
+    left: -2.5px;
+}
+.link:after{
+    right: 2.5px;
+    background: #4d79ff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.link:hover:before{
+    background: #4d79ff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.link:hover:after{
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+}
+.button{
     -webkit-transition:.2s ease-in;
     transition: .2s ease-in;
 }
-a:hover {
+.button:hover{
     cursor: pointer;
     opacity: 0.8;
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
 }
+
 .socialButtons a:first-child {
     padding: 4px 4px 4px 0px
 }
@@ -241,7 +277,8 @@ p{
     margin-bottom:30px;
 }
 .footer {
-    padding: 30px 30px 30px 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     max-width: 1000px;
     margin: 0 auto;
     display: flex !important;
@@ -727,22 +764,4 @@ textarea {
         page-break-after: avoid;
     }
 }
-
-/**
-.container {
-    width: 100%;
-    min-width: 1200px;
-    height: 100vh;
-    background-size: 100vh;
-    background-position: center;
-    background-attachment: fixed;
-}
-.container .overlay {
-    background: linear-gradient(to bottom, #B3DFFF 0%, #B3FFD3 50%, #B3FFF9 100%);
-}
-.container .slide {
-    width: 100%;
-    position: relative;
-}
-**/
 
