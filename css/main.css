@@ -8,17 +8,134 @@
 @import "compass/css3";
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 14px;
     line-height: 1.4;
 }
 body {
-    font-size: 20px;
+    font-size: 14px;
     font-family: "Gill Sans MT";
     font-weight: lighter;
     margin: 0;
     padding: 0;
     overflow:hidden;
 }
+
+@media all and (max-width: 1020px){
+    #top .hero .hero-left{
+        margin: 0 auto;
+        text-align: center;
+    }
+    #top .hero .hero-left .socialButtons{
+        margin: 0 auto;
+    }
+    #top .hero .hero-left .subtitles{
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 1020px){
+    .hero-right{
+        width: 100%;
+        padding-top:30px;
+        margin:0 auto;
+    }
+    .hero-right p{
+        margin-bottom: 0px;
+    }
+    #bot .skills .skill-item{
+        max-width: 45%;
+    }
+    #mid .projects .project-item{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    #mid .projects .project-item .p-right{
+        margin: 0 auto;
+        max-width:60%;
+    }
+    #mid .projects .project-item .p-right .picDiv{
+        max-width: 100%;
+    }
+    #mid .projects .project-item .p-right .picDiv img{
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    #mid .projects .project-item .p-left{
+        padding-top: 15px;
+    }
+    #mid .projects .project-item .p-left p{
+        margin-bottom: 0px;
+        padding-top: 10px;
+    }
+}
+/*.28572*/
+@media all and (max-width: 513px){
+    #top .hero .heroLeft .download-resume{
+        display: block;
+        width:100%;
+    }
+}
+
+@media all and (max-width: 1020px){
+    #mid .projects .header{
+        width:100%;
+        margin-bottom: 0px;
+    }
+    #bot .skills .header{
+        width:100%;
+        margin-bottom: 0px;
+    }
+    #bot .skills .title{
+        font-size:24px;
+        width:100%;
+    }
+    #bot .skills .subtitles{
+        font-size: 18px;
+        width: 100%;
+    }
+    #bot .skills .skillsTitle{
+        font-size:16px;
+    }
+    #bot .skills .skills-item p{
+        margin-bottom: 0px;
+    }
+    #mid .projects .title{
+        font-size: 24px;
+        width: 100%;
+    }
+    #mid .projects .subtitles{
+        font-size: 18px;
+        width: 100%;
+    }
+    #mid .projects .secondSubtitles{
+        font-size:16px;
+    }
+}
+
+@media all and (max-width: 700px){
+    #landingPage .helloThere .subtitles{
+        font-size: 30px;
+    }
+    #landingPage .helloThere .bar{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #landingPage .helloThere .sub-navigation .main-navigation-link{
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 450px){
+    #landingPage .helloThere .subtitles{
+        font-size: 25px;
+    }
+    #landingPage .helloThere .sub-navigation .main-navigation-link{
+        font-size: 15px;
+    }
+}
+
 * {
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
@@ -49,7 +166,7 @@ body {
 }
 */
 .sub-navigation{
-    max-width: 445px;
+    max-width: 450px;
     height: inherit;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -82,15 +199,8 @@ body {
 }
 
 .logo {
-    width: 68px;
+    max-width: 68px;
     display: block;
-}
-
-@media all and (max-width: 400px) {
-    .main-navigation h5 {
-        top: 7px;
-        font-size: 12px;
-    }
 }
 
 .link {
@@ -163,7 +273,7 @@ body {
     margin-top:60px;
     margin-bottom:50px;
     border-top: 1px;
-    width: 360px;
+    max-width: 360px;
     border-top:1px solid #4d79ff;
 }
 
@@ -179,24 +289,28 @@ section {
 #landingPage {
     height: 100vh;
     padding-top: 240px;
+    overflow:hidden;
 }
 
 #top {
     height: 100vh;
     display: flex;
     align-items: center;
+    overflow:hidden;
 }
 
 #mid {
     height: 100vh;
     display: flex;
     align-items: center;
+    overflow:hidden;
 }
 
 #bot {
     height: 90vh;
     display:flex;
     align-items: center;
+    overflow:hidden;
 }
 
 .hero {
@@ -212,10 +326,10 @@ section {
     max-width: 1000px;
 }
 .hero-left{
-    width: 450px;
+    max-width: 450px;
 }
 .hero-right{
-    width: 450px;
+    max-width: 450px;
 }
 
 p{
@@ -225,6 +339,13 @@ p{
     margin-bottom: 10.857px;
     letter-spacing: .5px;
     font-weight: 100;
+}
+
+@media all and (max-width: 1020px)
+{
+    p {
+        font-size: 10px;
+    }
 }
 
 .hero-right p{
@@ -296,7 +417,7 @@ p{
     margin-right:2px;
     padding: 5px;
     font-size: 10px;
-    width: 30px;
+    max-width: 40px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -357,7 +478,7 @@ p{
     max-width: 1000px;
 }
 .p-left{
-    width:450px;
+    max-width:450px;
     padding-top: 30px;
 }
 
@@ -371,10 +492,10 @@ p{
 }
 
 .p-right{
-    width:400px;
+    max-width:400px;
     padding-top:20px;
-    padding-left:100px;
     margin: 0 auto;
+    margin-left: 100px;
 }
 
 /*change color if using image*/
@@ -384,7 +505,6 @@ p{
 
 .projects{
     margin: 0 auto;
-    width: 1000px;
     max-width:1000px;
 }
 
@@ -448,7 +568,7 @@ p{
 }
 
 .downArrow{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -479,7 +599,7 @@ p{
 }
 
 .upArrow{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
