@@ -285,9 +285,13 @@
             });
         </script>
             <!-- scroll to anchor on scroll wheel-->
-            <!--
         <script>
             (function() {
+                if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+                {
+
+                }
+                else{
                 var delay = false;
                 $(document).on('mousewheel DOMMouseScroll', function(event) {
                     event.preventDefault();
@@ -318,10 +322,9 @@
                         });
                     }
                 });
-            })();
+            }})();
             console.clear();
         </script>
-        -->
         </div>
     </div>
     </body>
