@@ -55,7 +55,7 @@ body {
     }
     #mid .projects .project-item .p-right{
         margin: 0 auto;
-        max-width:60%;
+        max-width:70%;
     }
     #mid .projects .project-item .p-right .picDiv{
         max-width: 100%;
@@ -497,7 +497,7 @@ p{
 .picDiv img{
     display: block;
     margin: 0 auto;
-    padding-top: 71.56px;
+    padding-top: 20px;
 }
 
 
