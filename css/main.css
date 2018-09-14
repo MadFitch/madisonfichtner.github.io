@@ -55,19 +55,19 @@ body {
     }
     #mid .projects .project-item .p-right{
         margin: 0 auto;
-        max-width:70%;
+        max-width:100%;
     }
     #mid .projects .project-item .p-right .picDiv{
         max-width: 100%;
     }
     #mid .projects .project-item .p-right .picDiv img{
-        width: 75%;
+        width: 100%;
         margin: 0 auto;
         padding-top: 0px;
         padding-left: 0px;
     }
     #mid .projects .project-item .p-left{
-        padding-top: 15px;
+        padding-top: 10px;
     }
     #mid .projects .project-item .p-left p{
         margin-bottom: 0px;
@@ -302,7 +302,7 @@ body {
 }
 
 .socialButtons a:first-child {
-    padding: 4px 4px 4px 0px
+    padding: 4px 4px 4px 4px
 }
 .socialButtons a {
     padding: 4px;
@@ -546,7 +546,7 @@ p{
 }
 
 .p-right{
-    max-width:400px;
+    max-width:450px;
     padding-top:20px;
     margin: 0 auto;
     margin-left: 100px;
@@ -559,7 +559,7 @@ p{
 
 .projects{
     margin: 0 auto;
-    max-width:1000px;
+    max-width: 1000px;
 }
 
 .skills{
