@@ -101,6 +101,7 @@ body {
     .footer{
         height: 50px;
     }
+
 }
 
 @media all and (max-width: 1020px){
@@ -379,6 +380,7 @@ section {
 }
 .hero-left{
     max-width: 450px;
+    margin-right:100px;
 }
 .hero-right{
     max-width: 450px;
@@ -397,6 +399,12 @@ p{
 {
     p {
         font-size: 12px;
+    }
+    #mid .projects .project-item .p-right .picDiv img{
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-left: 0px;
     }
 }
 
